@@ -192,6 +192,12 @@ body{
     border: 0;
 }
 
+/* new link  */
+.indexlink{
+    font-size: 15px;
+    float: right;
+    margin-right: 20px;
+}
 
 
 
@@ -273,17 +279,17 @@ textarea{
 
 /* words on the labels */
 .centered {
-    position: absolute;
+    position: relative;
     top: 30%;
-    left: 42%;
+    left: auto;
 }
 
-/* words leangthy. centering */
+/* words leangthy. centering
 #korean_food{
     position: absolute;
     top: 30%;
     left: 33%;
-}
+} */
 
 /* size of the image */
 .image_size{
@@ -292,7 +298,30 @@ textarea{
     margin: 20px 30px 30px 10px;
     }
     
+/* new links on portfolio */
+.portlink{
 
+    position: relative;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+
+}
+
+.portlinkdiv{
+    clear:both;
+    background:yellow;
+    position: relative;
+    vertical-align: middle;
+    right:auto;
+    left:auto;
+    margin:0;
+ 
+ 
+}
 
 
     
@@ -349,6 +378,9 @@ textarea{
    
     footer{
         width:100%;
+        position: sticky;
+        bottom: 0;
+
     }
 
     label{
@@ -404,6 +436,8 @@ textarea{
 
     footer{
         width:100%;
+        position: relative;
+        bottom: 0;
     }
 
     label{
@@ -491,6 +525,7 @@ textarea{
         position: relative;
         margin-left: auto;
         margin-right: auto;
+        bottom: 0;
     }
 
     label{
